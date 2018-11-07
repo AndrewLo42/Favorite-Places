@@ -38,7 +38,7 @@ render() {
   return(
     // console.log(bench.description),
     console.log('In the return block'),
-    <div>
+    <div className='description'>
       { description || "No Description" }
     </div>
   );
